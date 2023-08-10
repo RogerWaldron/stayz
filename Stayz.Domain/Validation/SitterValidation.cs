@@ -3,9 +3,9 @@ using Stayz.Domain.Models;
 
 namespace Stayz.Domain.Validation
 {
-	public class HotelValidation
+	public class SitterValidation
 	{
-		public bool IsHotelValid(Hotel hotel)
+		public bool IsSitterValid(Stay hotel)
 		{
 			return true;
 		}
