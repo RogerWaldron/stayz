@@ -15,8 +15,18 @@
 
   <ItemGroup>
     <None Remove="Controllers\" />
+    <None Remove="Dtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Dtos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stayz.Domain\Stayz.Domain.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\Stayz.Dal\Stayz.Dal.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>
