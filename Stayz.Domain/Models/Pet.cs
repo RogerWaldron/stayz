@@ -15,8 +15,8 @@ namespace Stayz.Domain.Models
 		public string ImgUrl { get; set; }
 
 		public ICollection<Comment> Comments { get; set; }
-		public int CategoryId { get; set; }
-		public string Category Category { get; set; }
+		//public int CategoryId { get; set; }
+		//public string Category Category { get; set; }
 	}
 }
 
