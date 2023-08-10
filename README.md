@@ -1,4 +1,4 @@
-# stayz
+# Stayz
 An online service connecting pet owners to pet sitters.
 
 Sitters for those less common house pets such as chinchillas, ferrets, and even chickens.
